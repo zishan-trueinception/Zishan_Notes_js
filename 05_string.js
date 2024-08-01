@@ -15,6 +15,7 @@ console.log(`hello my name is ${name} and my repoCount is ${repoCount}`);
 // variable declaration one more type is 
 const gameName = new String(`truelink`)
 
+// String methods 
 console.log(gameName.toUpperCase()); 
 console.log(gameName.length);
 

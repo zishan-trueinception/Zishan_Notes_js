@@ -5,10 +5,11 @@
 // stack memory
 let myName = "sk zishan"
 let anotherName = myName
-anotherName = "zishan"
+anotherName = "zishan"  
+                            //  outputs
 
-console.log(myName);
-console.log(anotherName); 
+console.log(myName);           //   sk zishan
+console.log(anotherName);      //   zishan
 
 let userOne = {
     name: "zishan_shaikh",
@@ -21,6 +22,16 @@ let userTwo = userOne
 userTwo.email = "usertwo@gmail.com",
 userTwo.name = "userTwo"
 
-console.log(userOne);
-console.log(userTwo);
+console.log(userOne);   //  { name: 'userTwo', email: 'usertwo@gmail.com', upi: 'user@ybl' }
+
+console.log(userTwo);   //  { name: 'userTwo', email: 'usertwo@gmail.com', upi: 'user@ybl' }
+
 console.table([userOne.email]);
+
+/*
+┌─────────┬─────────────────────┐
+│ (index) │       Values        │
+├─────────┼─────────────────────┤
+│    0    │ 'usertwo@gmail.com' │
+└─────────┴─────────────────────┘
+*/

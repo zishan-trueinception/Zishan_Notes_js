@@ -1,6 +1,7 @@
 let name = "hello World"
-let nameUpdate = "zishan"
+var nameUpdate = "zishan" // prefer not to use
 const user = "userOne"
+
 
 /* prefere not to use var
 bcz of issue in block scope and functional scope
