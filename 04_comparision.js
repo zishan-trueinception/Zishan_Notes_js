@@ -18,10 +18,10 @@ console.log(null >= 0);  //true
     when we compare undefined to check equality to any number 
     its always give ans false
 */
-console.log(undefined == 0);
-console.log(undefined > 1);
-console.log(undefined < 0);
-console.log(undefined <= 0);
+console.log(undefined == 0);    //false
+console.log(undefined > 1);     //false
+console.log(undefined < 0);     //false
+console.log(undefined <= 0);    //false
 
 /*
     " === " use to strict check with data type
