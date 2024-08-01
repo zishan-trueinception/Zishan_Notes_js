@@ -3,7 +3,7 @@ let nameUpdate = "zishan"
 const user = "userOne"
 
 /* prefere not to use var
-bcz of issue in block scope and dunctional scope
+bcz of issue in block scope and functional scope
 */
 
 // const number = 33

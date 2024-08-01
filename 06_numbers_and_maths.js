@@ -6,6 +6,8 @@ console.log(balance.toFixed(1));
 const number = 123.4528
 console.log(number.toPrecision(4));
 
+
+// convert into stndard value 
 const hundreds = 400000
 console.log(hundreds.toLocaleString('en-IN'));
 
