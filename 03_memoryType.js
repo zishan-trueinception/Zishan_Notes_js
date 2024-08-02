@@ -1,3 +1,5 @@
+/********************************** Memory Type ***************************/
+
 /*  stack (Primitive) => copy value change
     Heap(Non-Primitive / Reference) => original value change
 */
