@@ -15,7 +15,7 @@
 */ 
 // Arrays
 const heros = ["shaktiman", "nagraj", "doga"];
-console.log(heros);
+console.log(heros);  // o/p   [ 'shaktiman', 'nagraj', 'doga' ]
 
 let myObj = // which key value type written in {...}
 {
@@ -23,14 +23,14 @@ let myObj = // which key value type written in {...}
     age : 20
 }
 
-console.log(myObj);
+console.log(myObj); // o/p  { name: 'Zishan', age: 20 }
 
 // Function
 const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(myFunction());
+console.log(myFunction());      // o/p  Hello world
 
 
 
