@@ -45,6 +45,42 @@ console.log("C ", numberArr);  // C  [0, 4, 5, 6, 7, 8, 9 ]
 
 console.log(myn2);  // [ 1, 2, 3 ]
 
+// .concat return a new array
+    const marvel_heros = ["thor", "IronMan", "Hulk"]
+    console.log(marvel_heros);  //  [ 'thor', 'IronMan', 'Hulk' ]   
+    
+    const dc_heros = ["Superman", "Batman", "Flash"]
+    console.log(dc_heros);  //  [ 'Superman', 'Batman', 'Flash' ]
+    
+
+   marvel_heros.push(dc_heros)
+   console.log(marvel_heros);
+   // add array in array
+   //   [ 'thor', 'IronMan', 'Hulk', [ 'Superman', 'Batman', 'Flash' ] ]
+
+   const newHeros = marvel_heros.concat(dc_heros) // here is limitations we can not pass one more value
+   console.log(newHeros);   // [ 'thor', 'IronMan', 'Hulk', 'Superman', 'Batman', 'Flash' ]
+
+   const all_new_heros = [...marvel_heros, ...dc_heros] // using spread operator
+   console.log(all_new_heros);
+
+
+   // convert values, numbers , string to array
+   let score1 = 100
+   let score2 = 200
+   let score3 = 300
+   let score4 = 400
+   console.log(Array.of(score1,score2,score3,score4)); // [ 100, 200, 300, 400 ]
+
+   let name = "zishan"
+   let city = "nashik"
+   let company = "trueinception"
+   console.log(Array.of(name,city,company)); // [ 'zishan', 'nashik', 'trueinception' ]
+   
+   
+
+   
+   
 
 
 
