@@ -1,16 +1,16 @@
 /* ************************* Numbers & Maths ************************* */
 const balance = new Number(100)
-console.log(balance)
-console.log(balance.toString().length);
-console.log(balance.toFixed(1));
+console.log(balance)    // 100
+console.log(balance.toString().length)   // 3
+console.log(balance.toFixed(1))   // 100.0
 
 const number = 123.4528
-console.log(number.toPrecision(4));
+console.log(number.toPrecision(4))   // 123.5
 
 
 // convert into stndard value 
 const hundreds = 400000
-console.log(hundreds.toLocaleString('en-IN'));
+console.log(hundreds.toLocaleString('en-IN'));  // 4,000,000
 
 console.log(Math);      // Object [Math] {}
 
