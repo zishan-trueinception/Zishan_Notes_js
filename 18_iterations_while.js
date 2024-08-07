@@ -32,7 +32,7 @@ do{
     score++
 }while(score <= 10)
 
-    // o/p score is 11<!DOCTYPE html>
+    // o/p score is 11
 
 // for of loop
 const arr = [1, 2, 3, 4, 5]
