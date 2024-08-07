@@ -1,6 +1,6 @@
 /****************** Array *****************/
 
-/* JavaScript Arrays are resizable and can contain mix of different data types
+/*  JavaScript Arrays are resizable and can contain mix of different data types
     zero based indexing (indexing starts from 0)
 */
 

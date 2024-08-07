@@ -55,7 +55,7 @@ const obj1 = {1: "a", 2: "b", 3: "c"}
 const obj2 = {3: "d", 4: "e", 5: "f"}
 const obj4 = {6: "g", 7: "h", 8: "i"}
 console.log(Object.assign( {},obj1, obj2));
-
+s
 const obj3 = {...obj1, ...obj2, ...obj4}
 console.log(obj3);
 

@@ -1,4 +1,5 @@
 // iterations / loops
+    // for
 
 for (let i = 0; i <= 10; i++) {
     const element = i ;
@@ -42,4 +43,25 @@ for (let index = 0; index < myArray.length; index++) {
     const element = myArray[index];
     console.log(element);
 }
+
+// break and continue keywords
+
+for( i = 1; i <= 10; i++){
+    if(i == 5){
+        break;
+    }
+    console.log(i);
+}
+// o/p 1 2 3 4
+
+
+for( i = 1; i <= 10; i++){
+    if(i == 5){
+        continue; // skip one iteration and start next iteration
+    }
+    console.log(i);
+}
+
+// o/p 1 2 3 4 6 7 8 9 10
+
 

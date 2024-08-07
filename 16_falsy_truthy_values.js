@@ -3,7 +3,7 @@
 // false ,0, -0, BigInt 0n, '', null, undefined, NaN
 
 // turthy values
-// "0", 'false', " ", [], {},function(){}, true 
+// "0", 'fasslse', " ", [], {},function(){}, true 
 
 const emptyObj = {}
 if(Object.keys(emptyObj).length === 0){
