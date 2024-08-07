@@ -15,7 +15,7 @@ let studentName = "Zishan"
 let acoountEmail = "zishan@trueinception"
 let city = "Nashik"
 
-// console.log(studentName);
+console.log(studentName);
 
 accountId = "232323"
 studentName = "Dk"
