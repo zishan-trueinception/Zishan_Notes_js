@@ -9,6 +9,17 @@ console.log(10 >= 10);    // true
 console.log(null > 0);    // false
 console.log(null == 0);   // false
 
+console.log(false == 0);  // true
+console.log(false == ''); // true
+console.log(0 == '');     // true
+console.log(false == null); // false
+console.log(null == false ); // false
+
+
+
+
+
+
 /* 
     comparisions convert null to a number
     treat it as 0
