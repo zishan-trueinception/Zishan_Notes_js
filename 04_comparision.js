@@ -9,6 +9,7 @@ console.log(10 >= 10);    // true
 console.log(null > 0);    // false
 console.log(null == 0);   // false
 
+// for general knowledge
 console.log(false == 0);  // true
 console.log(false == ''); // true
 console.log(0 == '');     // true
