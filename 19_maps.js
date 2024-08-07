@@ -22,4 +22,28 @@ for (const [key,values] of map) {
     
 }
 
-// use for in for object iteration
+// Note: use for in for object iteration
+
+const myCoding = [
+    {
+        languageName: "Python",
+        languageFiledName: "Py",
+    },
+    {
+        languageName: "javaScript",
+        languageFiledName: "JS",
+    },
+    {
+        languageName: "Android",
+        languageFiledName: "compose",
+    },
+    {
+        languageName: "HTML",
+        languageFiledName: "HTML",
+    }
+]
+
+myCoding.forEach((element) => {
+    console.log(element.languageName, element.languageFiledName);
+})
+
