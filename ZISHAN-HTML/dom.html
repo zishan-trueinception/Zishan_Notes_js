@@ -14,8 +14,26 @@
     </div>
 </body>
 <script>
+    // for parent query selector
     const parent = document.querySelector('.parent')
     console.log(parent);
+    console.log(parent.children);
     console.log(parent.children[1].innerHTML);
+    // for loop for printing the children elemnts of parent
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+    }
+    // style for change the color of second child index 1st
+    parent.children[1].style.color = 'green';
+
+    const dayOne = document.querySelector('.day');
+    console.log(dayOne);
+    // to access the parent
+    console.log(dayOne.parentElement);
+    
+    
+    
+    
+    
 </script>
 </html>
