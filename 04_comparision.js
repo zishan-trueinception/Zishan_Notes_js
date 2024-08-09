@@ -16,11 +16,6 @@ console.log(0 == '');     // true
 console.log(false == null); // false
 console.log(null == false ); // false
 
-
-
-
-
-
 /* 
     comparisions convert null to a number
     treat it as 0
@@ -39,6 +34,6 @@ console.log(undefined <= 0);    //false
 
 /*
     " === " use to strict check with data type
- */
+*/
 
     console.log("2" === 2); // missMatch data type false
