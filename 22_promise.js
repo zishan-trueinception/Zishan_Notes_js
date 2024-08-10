@@ -70,3 +70,26 @@ promsieFour
     console.log("Promise is either resolved or rejected");
 })
 
+// async and await 
+// uses try catch for error handling
+
+const promiseFive = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let error = true
+        if(!error){
+            resolve({username: "zishan", email: "zishan@exampe.com"})
+        }else {
+            reject('Error: Something went wrong')
+        }
+    },1000)
+})
+async function consumePromiseFive() {
+    try {
+    const response = await promiseFive
+    console.log(response);  
+    } catch (error) {
+      console.log(error);
+        
+    } 
+}
+    consumePromiseFive()
