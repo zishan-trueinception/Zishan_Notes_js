@@ -33,3 +33,40 @@ promiseTwo = new Promise(function(resolve, reject) {
 promiseTwo.then(function(){
     console.log('Promise consumed 2');
 })
+
+// data consumption and how value is passed
+const promiseThree = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        resolve({username: "zishan", email: "zishan@exampe.com"})
+    },1000)
+})
+ promiseThree.then(function(data){
+     console.log(data);
+ })
+
+ // promise chaining .then .catch
+const promsieFour = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let error = true
+        if(!error){
+            resolve({username: "zishan", email: "zishan@exampe.com"})
+        }else {
+            reject('Error: Something went wrong')
+        }
+    },1000)
+})
+promsieFour
+.then((data) =>{
+    console.log(data);
+    return data.username
+})
+.then(username =>{
+    console.log(username);
+})
+.catch((error)=>{
+    console.log(error);
+})
+.finally(()=>{
+    console.log("Promise is either resolved or rejected");
+})
+
